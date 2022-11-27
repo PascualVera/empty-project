@@ -1,0 +1,49 @@
+.App {
+	background-color: rgb(27, 0, 31);
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	overflow: hidden;
+	font-size: 1.3vw;
+}
+.app_container {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 5vw;
+	z-index: 1;
+}
+.bg {
+	margin: 0;
+	height: 100%;
+}
+
+::-webkit-scrollbar {
+	width: 15px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+	background: white;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+	background: black;
+}
+
+::-webkit-scrollbar-thumb:hover {
+	background: rgb(50, 0, 58);
+}
+
+@media screen and (max-width: 1000px) {
+	.App {
+		height: max-content;
+	}
+	.app_container {
+		display: flex;
+		flex-direction: column;
+	}
+}

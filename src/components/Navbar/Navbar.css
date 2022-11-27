@@ -1,0 +1,44 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@200&family=Share+Tech+Mono&display=swap");
+.navbar {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	position: fixed;
+	top: 0;
+	width: 100vw;
+	height: 8vh;
+	background-color: rgba(0, 0, 0, 0.4);
+	z-index: 2;
+	color: white;
+	backdrop-filter: blur(10px);
+	padding: 0 2vw 0 2vw;
+}
+.nav_title {
+	font-family: "Share Tech Mono", monospace;
+	letter-spacing: 0.5vh;
+}
+.link_container {
+	display: flex;
+	font-size: 1.2vw;
+	height: 100%;
+	align-items: center;
+	font-family: "Roboto Mono", monospace;
+}
+.link {
+	display: flex;
+	height: 100%;
+	align-items: center;
+	padding: 0 0.5vw 0 0.5vw;
+	cursor: pointer;
+	transition: all 0.15s;
+}
+.link:hover {
+	background-color: rgba(3, 129, 188);
+}
+.auth_link {
+	height: 60%;
+	border: 2px solid rgba(133, 59, 236, 0.151);
+	margin: 0 10px 0 10px;
+	border-radius: 4px;
+	background-color: rgba(59, 236, 221, 0.11);
+}
